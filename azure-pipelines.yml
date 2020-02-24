@@ -25,7 +25,7 @@ steps:
     pool:
       vmImage: 'Ubuntu-latest'
     # creates an environment if it doesn't exist
-    environment: 'smarthotel-dev'
+    environment: 'QA'
     strategy:
       runOnce:
         deploy:
